@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainLoaiTB">
+    <TextView
+        android:text="@string/ltb"
+        style="@style/TieuDe"></TextView>
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="99dp"
+            android:text="@string/tvmaloai" />
+
+        <EditText
+            android:id="@+id/txtMaLoai"
+            style="@style/edittext"
+            android:layout_width="335dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="wrap_content"
+            android:text="@string/tvtenloai" />
+
+        <EditText
+            android:id="@+id/txtTenLoai"
+            style="@style/edittext"
+            android:layout_width="320dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/ChucNang"
+            android:drawableLeft="@drawable/ic_baseline_add_to_photos_24"
+            android:text="@string/them" />\
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/ChucNang"
+            android:drawableLeft="@drawable/ic_baseline_delete_forever_24"
+            android:text="@string/xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/ChucNang"
+            android:drawableLeft="@drawable/ic_baseline_create_24"
+            android:text="@string/sua" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear">
+
+
+        <EditText
+            style="@style/edittext"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_search_24"></EditText>
+
+        <Button
+            android:id="@+id/btnSearch"
+            style="@style/btnTimKiem"
+            android:layout_width="wrap_content"
+            android:text="@string/search" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></ListView>
+
+    <LinearLayout style="@style/linear"/>
+
+
+</LinearLayout>

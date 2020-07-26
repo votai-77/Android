@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QUẢN LÝ THIẾT BỊ TRƯỜNG HỌC</string>
+    <string name="qltbth">QUẢN LÝ THIẾT BỊ TRƯỜNG HỌC</string>
+    <string name="tbi">THIẾT BỊ</string>
+    <string name="matb">Mã thiết bị</string>
+    <string name="tentb">Tên thiết bị</string>
+    <string name="ml">Mã loại</string>
+    <string name="cn">CHỨC NĂNG</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="thoat">Thoát</string>
+    <string name="kq">Kết quả</string>
+    <string name="ltb">LOẠI THIẾT BỊ </string>
+    <string name="tb">Thiết bị</string>
+    <string name="ph">PHÒNG HỌC</string>
+    <string name="ctsd">CHI TIẾT SỬ DỤNG</string>
+    <string name="tvmaloai">Mã loại</string>
+    <string name="tvtenloai">Tên loại</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="xx">Xuất xứ</string>
+    <string name="mp">Mã phòng</string>
+    <string name="nsd">Ngày sử dụng</string>
+    <string name="sl">Số lượng</string>
+    <string name="lp">Loại phòng</string>
+    <string name="tang">Tầng</string>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.doan.GiaoDien.MainLoaiTB">
+    <TextView
+        android:text="@string/tbi"
+        style="@style/TieuDe"></TextView>
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="wrap_content"
+            android:text="@string/matb" />
+
+        <EditText
+            android:id="@+id/txtMaTB"
+            style="@style/edittext"
+            android:layout_width="297dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="wrap_content"
+            android:text="@string/tentb" />
+
+        <EditText
+            android:id="@+id/txtTenTB"
+            style="@style/edittext"
+            android:layout_width="286dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="99dp"
+            android:text="@string/xx" />
+
+        <EditText
+            android:id="@+id/txtXuatXu"
+            style="@style/edittext"
+            android:layout_width="304dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="wrap_content"
+            android:text="@string/ml" />
+        <Spinner
+            style="@style/spMaLoai"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/ChucNang"
+            android:drawableLeft="@drawable/ic_baseline_add_to_photos_24"
+            android:text="@string/them" />\
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/ChucNang"
+            android:drawableLeft="@drawable/ic_baseline_delete_forever_24"
+            android:text="@string/xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/ChucNang"
+            android:drawableLeft="@drawable/ic_baseline_create_24"
+            android:text="@string/sua" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear">
+
+
+        <EditText
+            style="@style/edittext"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_search_24"></EditText>
+
+        <Button
+            android:id="@+id/btnSearch"
+            style="@style/btnTimKiem"
+            android:layout_width="wrap_content"
+            android:text="@string/search" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></ListView>
+
+
+
+
+</LinearLayout>

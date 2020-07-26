@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainActivity">
+
+
+    <TextView
+        style="@style/TieuDe"
+        android:text="@string/qltbth" />
+
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_width="386dp">
+        <Button
+            android:id="@+id/btnLoaiTB"
+            style="@style/ChucNang"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_baseline_desktop_mac_24"
+            android:text="@string/ltb" />
+        <Button
+            android:id="@+id/btnTB"
+            style="@style/ChucNang"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_baseline_event_available_24"
+            android:text="@string/tb" />
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_width="381dp">
+
+        <Button
+            android:id="@+id/btnChiTietSD"
+            style="@style/ChucNang"
+            android:drawableTop="@drawable/ic_baseline_note_add_24"
+            android:text="@string/ctsd" />
+
+        <Button
+            android:id="@+id/btnPhongHoc"
+            style="@style/ChucNang"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_baseline_school_24"
+            android:text="@string/ph" />
+        />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnThoat"
+        style="@style/ChucNang"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/ic_baseline_exit_to_app_24"
+        android:text="@string/thoat" />
+</LinearLayout>
